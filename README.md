@@ -14,3 +14,10 @@ I'm not going to walk you through the Windows installation, however if you've do
 # Debloating and removing telemetry
 Ok, we're basically done now, but DONT CONNECT TO THE INTERNET YET!!! We have work to do. First, open up the classic control pannel. Click "Uninstall a Program".
 ![uninstall](prg.PNG)
+Once in this menu, click Microft Edge, and then uninstall.
+## Telemetry
+Now assuming you unslided all the things during initial setup, this should be a walk in the park. If you want this to be easier, just install winaero tweaker and disable telemetry with it. Ok, we have to disable Microsoft Consumer experiences. This is fairly easy. Open the start menu, and search for "gpedit.msc", once done typing this, hit enter. This will bring up the Group Policy Editor. Choose Computer Configuration, then Administrative Templates, then Windows Components, then Cloud Content. Now you will see an option saying "Turn Off Microsoft Consumer Experiences". Double click this policy, then choose "Enabled" in the popup window. Hit apply, then OK. Now reboot.
+![disable1](disable1.PNG)
+![disable2](disable2.PNG)
+# You're Done!
+Congrats, you have a debloated Windows 10 Install with little to no telemetry! Go play some Call of Duty Warzone, create the next million dollar painting in MS Paint, do whatever the hell you want, because Microsoft won't know you're doing it. In all honesty, if you found this guide useful, you can donate to me on paypal [here](https://paypal.me/quinnshady007?country.x=CA&locale.x=en_US). Enjoy your fresh cleaned Windows!
