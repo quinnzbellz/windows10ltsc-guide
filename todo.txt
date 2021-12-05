@@ -1,0 +1,2 @@
+- Fix typos (ie microft edge)
+- Fix telemetry settings
