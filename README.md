@@ -21,3 +21,6 @@ Now assuming you unslided all the things during initial setup, this should be a 
 ![disable2](disable2.PNG)
 # You're Done!
 Congrats, you have a debloated Windows 10 Install with little to no telemetry! Go play some Call of Duty Warzone, create the next million dollar painting in MS Paint, do whatever the hell you want, because Microsoft won't know you're doing it. In all honesty, if you found this guide useful, you can donate to me on paypal [here](https://paypal.me/quinnshady007?country.x=CA&locale.x=en_US). Enjoy your fresh cleaned Windows!
+
+# Extras
+If you want to enable screenshotting with Win+Shift+S, refer to [this](https://github.com/Liub0myr/Win-10-LTSC-21H2-Clip-and-Snip-fix).
