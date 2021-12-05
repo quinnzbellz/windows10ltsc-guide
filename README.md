@@ -14,9 +14,9 @@ I'm not going to walk you through the Windows installation, however if you've do
 # Debloating and removing telemetry
 Ok, we're basically done now, but DONT CONNECT TO THE INTERNET YET!!! We have work to do. First, open up the classic control pannel. Click "Uninstall a Program".
 ![uninstall](prg.PNG)
-Once in this menu, click Microft Edge, and then uninstall.
+Once in this menu, click Microsoft Edge, and then uninstall.
 ## Telemetry
-Now assuming you unslided all the things during initial setup, this should be a walk in the park. If you want this to be easier, just install winaero tweaker and disable telemetry with it. Ok, we have to disable Microsoft Consumer experiences. This is fairly easy. Open the start menu, and search for "gpedit.msc", once done typing this, hit enter. This will bring up the Group Policy Editor. Choose Computer Configuration, then Administrative Templates, then Windows Components, then Cloud Content. Now you will see an option saying "Turn Off Microsoft Consumer Experiences". Double click this policy, then choose "Enabled" in the popup window. Hit apply, then OK. Now reboot.
+Now assuming you unslided all the things during initial setup, this should be a walk in the park. If you want this to be easier, just install winaero tweaker and disable telemetry with it. Ok, we have to disable telemetry. This is fairly easy. Open the start menu, and search for "gpedit.msc", once done typing this, hit enter. This will bring up the Group Policy Editor. Choose Computer Configuration, then Administrative Templates, then Windows Components, then Data Collection And Preview Builds. Now you will see an option saying "Allow Telemetry". Double click this policy, then choose "Enabled" in the popup window. Now hit the dropdown menu and click Security (Enterprise Only). What this does is it tells the computer we don't want it to phone home to microsoft, despite the irony of the policy being called "Allow Telemetry". Hit apply, then OK. Now reboot.
 ![disable1](disable1.PNG)
 ![disable2](disable2.PNG)
 # You're Done!
